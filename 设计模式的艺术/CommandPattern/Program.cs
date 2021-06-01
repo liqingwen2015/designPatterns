@@ -1,6 +1,8 @@
 ﻿using System;
 using CommandPattern.Sample1;
 using CommandPattern.Sample3;
+using CommandPattern.Sample4;
+using Command = CommandPattern.Sample4.Command;
 
 namespace CommandPattern
 {
@@ -33,14 +35,51 @@ namespace CommandPattern
 
             // smaple2
             {
-                var form = new CaculatorForm();
-                AbstractCommand command = new AddCommand();
-                form.Command = command;
+                //var form = new CaculatorForm();
+                //AbstractCommand command = new AddCommand();
+                //form.Command = command;
 
-                form.Compute(10);
-                form.Compute(5);
-                form.Compute(10);
-                form.Undo();
+                //form.Compute(10);
+                //form.Compute(5);
+                //form.Compute(10);
+                //form.Undo();
+            }
+
+            // sample3
+            {
+                var csw = new ConfigSettingWindow();
+                Command command;
+                ConfigOperator co = new ConfigOperator();
+
+                // 4 次对配置文件的更改
+                command = new InsertCommand("增加");
+                command.ConfigOperator = co;
+                csw.Command = command;
+                csw.Call("网站首页");
+
+                command = new InsertCommand("增加");
+                command.ConfigOperator = co;
+                csw.Command = command;
+                csw.Call("端口号");
+
+                command = new ModifyCommand("修改");
+                command.ConfigOperator = co;
+                csw.Command = command;
+                csw.Call("网站首页");
+
+                command = new ModifyCommand("修改");
+                command.ConfigOperator = co;
+                csw.Command = command;
+                csw.Call("端口号");
+
+                Console.WriteLine("------------------------------");
+                Console.WriteLine("保存配置");
+                csw.Save();
+
+                Console.WriteLine("------------------------------");
+                Console.WriteLine("恢复配置");
+                Console.WriteLine("------------------------------");
+                csw.Recover();
             }
         }
     }

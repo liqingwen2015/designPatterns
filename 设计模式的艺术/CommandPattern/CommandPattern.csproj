@@ -8,6 +8,11 @@
   <ItemGroup>
     <Folder Include="Sample2\" />
     <Folder Include="Sample3\" />
+    <Folder Include="Sample4\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>

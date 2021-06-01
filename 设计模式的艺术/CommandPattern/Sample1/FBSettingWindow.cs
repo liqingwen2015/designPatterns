@@ -47,40 +47,4 @@ namespace CommandPattern.Sample1
             }
         }
     }
-
-    class HelpCommand : Command
-    {
-        private readonly HelpeHandler _handler = new();
-
-        public override void Execute()
-        {
-            _handler.Display();
-        }
-    }
-
-    class MinimizeCommand : Command
-    {
-        private readonly WindowHandler _handler = new();
-
-        public override void Execute()
-        {
-            _handler.Minimize();
-        }
-    }
-
-    class HelpeHandler
-    {
-        public void Display()
-        {
-            Console.WriteLine("显示帮助文档！");
-        }
-    }
-
-    class WindowHandler
-    {
-        public void Minimize()
-        {
-            Console.WriteLine("将窗口最小化至托盘！");
-        }
-    }
 }

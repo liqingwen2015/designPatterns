@@ -1,5 +1,6 @@
 ﻿using System;
 using StatePattern.Sample2;
+using StatePattern.Sample3;
 
 namespace StatePattern
 {
@@ -22,20 +23,26 @@ namespace StatePattern
 
             // sample2
             {
-                var s1 = new Switch("开关1");
-                var s2 = new Switch("开关2");
+                //var s1 = new Switch("开关1");
+                //var s2 = new Switch("开关2");
 
-                s1.On();
-                s2.On();
+                //s1.On();
+                //s2.On();
 
-                s1.Off();
-                s2.Off();
+                //s1.Off();
+                //s2.Off();
 
-                s2.On();
-                s1.On();
+                //s2.On();
+                //s1.On();
             }
 
-            //Console.WriteLine("Hello World!");
+            // sample3
+            {
+                var screen = new Screen();
+                screen.OnClick();
+                screen.OnClick();
+                screen.OnClick();
+            }
         }
     }
 }

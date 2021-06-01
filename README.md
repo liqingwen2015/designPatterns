@@ -17,5 +17,6 @@
 - 《[研磨设计模式](https://book.douban.com/subject/5343318/)》
 - 《[设计模式沉思录](https://book.douban.com/subject/4816447/)》
 - 《[设计模式精解](https://book.douban.com/subject/1219912/)》
+- 《图解设计模式》
 - 极客时间 - 设计模式之美
 

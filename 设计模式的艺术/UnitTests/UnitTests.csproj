@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
+    <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />
     <ProjectReference Include="..\StatePattern\StatePattern.csproj" />
     <ProjectReference Include="..\TemplatePattern\TemplatePattern.csproj" />
   </ItemGroup>

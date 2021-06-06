@@ -310,3 +310,5 @@ abp-build-config.json
 
 # Identity Server temp signature file
 tempkey.jwk
+
+.vshistory/

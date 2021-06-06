@@ -3,7 +3,7 @@
     /// <summary>
     /// 帮助命令
     /// </summary>
-    class HelpCommand : Command
+  public  class HelpCommand : Command
     {
         private readonly HelpeHandler _handler = new();
 

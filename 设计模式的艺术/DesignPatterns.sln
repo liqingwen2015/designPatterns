@@ -9,7 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 状态模式", "23 状�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17 命令模式", "17 命令模式", "{1B8BD44C-CDE5-454E-8491-8209A7721BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{F03BA41B-66AA-416D-9AF7-9B3DC2EA4BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{F03BA41B-66AA-416D-9AF7-9B3DC2EA4BEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{E5FF49A1-5C29-4080-B976-B817C852A91B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25 模板模式", "25 模板模式", "{02C4304D-B472-46DC-89F5-1A452DD892E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePattern", "TemplatePattern\TemplatePattern.csproj", "{585DB2E8-CAE5-4EC8-BE84-45BBFD190855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,14 @@ Global
 		{F03BA41B-66AA-416D-9AF7-9B3DC2EA4BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F03BA41B-66AA-416D-9AF7-9B3DC2EA4BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F03BA41B-66AA-416D-9AF7-9B3DC2EA4BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FF49A1-5C29-4080-B976-B817C852A91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FF49A1-5C29-4080-B976-B817C852A91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FF49A1-5C29-4080-B976-B817C852A91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FF49A1-5C29-4080-B976-B817C852A91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585DB2E8-CAE5-4EC8-BE84-45BBFD190855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585DB2E8-CAE5-4EC8-BE84-45BBFD190855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585DB2E8-CAE5-4EC8-BE84-45BBFD190855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585DB2E8-CAE5-4EC8-BE84-45BBFD190855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{607D80F0-72CC-43E0-9D2D-D6BD2DC1AA6B} = {2DA4BE91-5EF1-4045-82CA-3AE4CB2F33B1}
 		{F03BA41B-66AA-416D-9AF7-9B3DC2EA4BEB} = {1B8BD44C-CDE5-454E-8491-8209A7721BED}
+		{585DB2E8-CAE5-4EC8-BE84-45BBFD190855} = {02C4304D-B472-46DC-89F5-1A452DD892E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327ED042-0506-44C3-8398-25D2A446EF6A}

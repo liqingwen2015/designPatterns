@@ -5,7 +5,7 @@ namespace CommandPattern.Sample4
     /// <summary>
     /// 配置文件设置窗口（请求发送者）
     /// </summary>
-    class ConfigSettingWindow
+   public class ConfigSettingWindow
     {
         /// <summary>
         /// 命令集合，将每次操作记录下来

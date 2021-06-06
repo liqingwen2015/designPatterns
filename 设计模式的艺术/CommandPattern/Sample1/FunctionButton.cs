@@ -5,7 +5,7 @@ namespace CommandPattern.Sample1
     /// <summary>
     /// 功能键（请求发送者）
     /// </summary>
-    class FunctionButton
+    public class FunctionButton
     {
         public string Name { get; set; }
 

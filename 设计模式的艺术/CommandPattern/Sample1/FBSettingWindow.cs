@@ -6,7 +6,7 @@ namespace CommandPattern.Sample1
     /// <summary>
     /// 功能键设置窗口类
     /// </summary>
-    class FBSettingWindow
+    public class FBSettingWindow
     {
         /// <summary>
         /// 标题

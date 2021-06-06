@@ -3,7 +3,7 @@
     /// <summary>
     /// 加法命令（具体命令）
     /// </summary>
-    class AddCommand : AbstractCommand
+  public  class AddCommand : AbstractCommand
     {
         private readonly Adder _adder = new();
         private int _value;

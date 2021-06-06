@@ -10,7 +10,7 @@ namespace CommandPattern.Sample4
     /// <summary>
     /// 抽象命令
     /// </summary>
-    abstract class Command
+    public abstract class Command
     {
         public string Name { get; set; }
 

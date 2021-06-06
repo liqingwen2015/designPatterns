@@ -3,7 +3,7 @@
     /// <summary>
     /// 增加命令（具体命令）
     /// </summary>
-    class InsertCommand : Command
+    public class InsertCommand : Command
     {
         public InsertCommand(string name) : base(name)
         {

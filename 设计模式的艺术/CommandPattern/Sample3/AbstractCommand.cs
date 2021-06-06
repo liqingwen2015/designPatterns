@@ -3,7 +3,7 @@
     /// <summary>
     /// 抽象命令
     /// </summary>
-    abstract class AbstractCommand
+    public abstract class AbstractCommand
     {
         public abstract int Execute(int value);
 

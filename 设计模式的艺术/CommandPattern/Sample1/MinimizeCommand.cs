@@ -3,7 +3,7 @@
     /// <summary>
     /// 最小化命令
     /// </summary>
-    class MinimizeCommand : Command
+    public class MinimizeCommand : Command
     {
         private readonly WindowHandler _handler = new();
 

@@ -3,7 +3,7 @@
     /// <summary>
     /// 修改命令（具体命令）
     /// </summary>
-    class ModifyCommand : Command
+   public class ModifyCommand : Command
     {
         public ModifyCommand(string name) : base(name)
         {

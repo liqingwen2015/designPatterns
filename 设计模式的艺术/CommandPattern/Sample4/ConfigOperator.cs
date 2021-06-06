@@ -6,7 +6,7 @@ namespace CommandPattern.Sample4
     /// 配置文件操作（请求接收者）
     /// </summary>
     [Serializable]
-    class ConfigOperator
+    public class ConfigOperator
     {
         /// <summary>
         /// 插入

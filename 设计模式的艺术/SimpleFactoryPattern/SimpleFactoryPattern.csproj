@@ -1,18 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Sample1\" />
     <Folder Include="Sample2\" />
-    <Folder Include="Sample3\" />
-    <Folder Include="Sample4\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="NiuX.Extensions" Version="0.0.4" />
   </ItemGroup>
 

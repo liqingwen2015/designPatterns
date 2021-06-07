@@ -7,10 +7,7 @@ namespace StatePattern.Sample1
     /// </summary>
     public class OverdraftState : AccountState
     {
-        public OverdraftState(AccountState state)
-        {
-            Account = state.Account;
-        }
+        public OverdraftState(AccountState state) => Account = state.Account;
 
         public override void Deposit(double amount)
         {
@@ -24,10 +21,7 @@ namespace StatePattern.Sample1
             CheckState();
         }
 
-        public override void ComputeInterest()
-        {
-            Console.WriteLine("计算利息");
-        }
+        public override void ComputeInterest() => Console.WriteLine("计算利息");
 
         public override void CheckState()
         {

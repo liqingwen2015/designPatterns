@@ -7,9 +7,6 @@ namespace CommandPattern.Sample1
     /// </summary>
     class HelpeHandler
     {
-        public void Display()
-        {
-            Console.WriteLine("显示帮助文档！");
-        }
+        public void Display() => Console.WriteLine("显示帮助文档！");
     }
 }

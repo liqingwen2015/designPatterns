@@ -7,15 +7,9 @@ namespace CommandPattern.Sample2
     {
         public List<Command> Commands { get; set; } = new();
 
-        public void AddCommand(Command command)
-        {
-            Commands.Add(command);
-        }
+        public void AddCommand(Command command) => Commands.Add(command);
 
-        public void RemoveCommand(Command command)
-        {
-            Commands.Remove(command);
-        }
+        public void RemoveCommand(Command command) => Commands.Remove(command);
 
         public void Execute()
         {

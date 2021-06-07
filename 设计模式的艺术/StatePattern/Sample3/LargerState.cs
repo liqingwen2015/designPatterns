@@ -7,9 +7,6 @@ namespace StatePattern.Sample3
     /// </summary>
     public class LargerState : State
     {
-        public override void Display()
-        {
-            Console.WriteLine("2 倍大小！");
-        }
+        public override void Display() => Console.WriteLine("2 倍大小！");
     }
 }

@@ -4,14 +4,8 @@
     {
         public CommandQueue CommandQueue { get; set; }
 
-        public Invoker(CommandQueue commandQueue)
-        {
-            CommandQueue = commandQueue;
-        }
+        public Invoker(CommandQueue commandQueue) => CommandQueue = commandQueue;
 
-        public void Call()
-        {
-            CommandQueue.Execute();
-        }
+        public void Call() => CommandQueue.Execute();
     }
 }

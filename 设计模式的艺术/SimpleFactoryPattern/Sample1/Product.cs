@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SimpleFactoryPattern.Sample1
+﻿namespace SimpleFactoryPattern.Sample1
 {
     public abstract class Product
     {
@@ -16,34 +14,5 @@ namespace SimpleFactoryPattern.Sample1
         /// 声明抽象业务方法
         /// </summary>
         public abstract void MethodDiff();
-    }
-
-    public class ConcreteProductA : Product
-    {
-        /// <summary>
-        /// 实现业务方法
-        /// </summary>
-        public override void MethodDiff()
-        {
-            // 业务方法的实现
-        }
-    }
-
-    public class ConcreteProductB : Product
-    {
-        /// <summary>
-        /// 实现业务方法
-        /// </summary>
-        public override void MethodDiff()
-        {
-            // 业务方法的实现
-        }
-    }
-
-    public class Factory
-    {
-        public static Product GetProduct(string arg) =>
-            arg.IsEqual("A") ? new ConcreteProductA() :
-            arg.IsEqual("B") ? new ConcreteProductB() : null;
     }
 }

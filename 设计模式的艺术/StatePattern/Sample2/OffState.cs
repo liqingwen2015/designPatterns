@@ -13,9 +13,6 @@ namespace StatePattern.Sample2
             s.State = Switch.GetState("on");
         }
 
-        public override void Off(Switch s)
-        {
-            Console.WriteLine("已经关闭！");
-        }
+        public override void Off(Switch s) => Console.WriteLine("已经关闭！");
     }
 }

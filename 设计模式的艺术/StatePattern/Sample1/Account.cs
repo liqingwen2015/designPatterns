@@ -43,10 +43,6 @@ namespace StatePattern.Sample1
             Console.WriteLine("------------------");
         }
 
-        public void ComputerInterest()
-        {
-            State.ComputeInterest();
-        }
-
+        public void ComputerInterest() => State.ComputeInterest();
     }
 }

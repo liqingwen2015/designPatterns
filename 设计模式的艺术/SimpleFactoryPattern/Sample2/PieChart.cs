@@ -2,6 +2,9 @@
 
 namespace SimpleFactoryPattern.Sample2
 {
+    /// <summary>
+    /// 饼状图类：具体产品类
+    /// </summary>
     public class PieChart : IChart
     {
         public PieChart()

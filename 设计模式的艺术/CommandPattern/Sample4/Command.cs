@@ -18,12 +18,10 @@ namespace CommandPattern.Sample4
 
         public ConfigOperator ConfigOperator { get; set; }
 
-        protected Command(string name)
-        {
-            Name = name;
-        }
+        protected Command(string name) => Name = name;
 
         public abstract void Execute(string args);
+
         public abstract void Execute();
 
     }

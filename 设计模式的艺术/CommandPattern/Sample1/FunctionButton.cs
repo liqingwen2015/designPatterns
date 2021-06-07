@@ -14,10 +14,7 @@ namespace CommandPattern.Sample1
         /// </summary>
         public Command Command { get; set; }
 
-        public FunctionButton(string name)
-        {
-            Name = name;
-        }
+        public FunctionButton(string name) => Name = name;
 
         public void OnClick()
         {

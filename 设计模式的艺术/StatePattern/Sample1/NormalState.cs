@@ -7,15 +7,9 @@ namespace StatePattern.Sample1
     /// </summary>
     public class NormalState : AccountState
     {
-        public NormalState(Account account)
-        {
-            Account = account;
-        }
+        public NormalState(Account account) => Account = account;
 
-        public NormalState(AccountState state)
-        {
-            Account = state.Account;
-        }
+        public NormalState(AccountState state) => Account = state.Account;
 
         public override void Deposit(double amount)
         {
@@ -29,10 +23,7 @@ namespace StatePattern.Sample1
             CheckState();
         }
 
-        public override void ComputeInterest()
-        {
-            Console.WriteLine("正常状态，无需支付利息！");
-        }
+        public override void ComputeInterest() => Console.WriteLine("正常状态，无需支付利息！");
 
         public override void CheckState()
         {

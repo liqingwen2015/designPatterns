@@ -12,14 +12,17 @@
 
 # 已整理
 
-- 《[设计模式的艺术：软件开发人员内功修炼之道](https://book.douban.com/subject/20493657/)》
+- 《[设计模式的艺术：软件开发人员内功修炼之道](.\设计模式的艺术\README.md)》
   - 单例模式
+  - 简单工厂模式
+  - 工厂方法模式
   - 命令模式
   - 状态模式
   - 模板模式
 
 # TODO
 
+- 《[设计模式的艺术：软件开发人员内功修炼之道](https://book.douban.com/subject/20493657/)》
 - 《[Head First 设计模式](https://book.douban.com/subject/2243615/)》
 - 《[设计模式：可复用面向对象软件的基础](https://book.douban.com/subject/1099305/)》
 - 《[大话设计模式](https://book.douban.com/subject/2334288/)》

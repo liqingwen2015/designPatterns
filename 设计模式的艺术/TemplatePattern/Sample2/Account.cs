@@ -25,10 +25,7 @@ namespace TemplatePattern.Sample2
         /// <summary>
         /// 基本方法 - 具体方法
         /// </summary>
-        public void Display()
-        {
-            Console.WriteLine("显示利息！");
-        }
+        public void Display() => Console.WriteLine("显示利息！");
 
         public void Handle(string account, string password)
         {

@@ -7,9 +7,6 @@ namespace StatePattern.Sample3
     /// </summary>
     public class NormalState : State
     {
-        public override void Display()
-        {
-            Console.WriteLine("正常大小！");
-        }
+        public override void Display() => Console.WriteLine("正常大小！");
     }
 }

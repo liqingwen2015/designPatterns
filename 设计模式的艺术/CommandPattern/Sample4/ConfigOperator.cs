@@ -12,29 +12,18 @@ namespace CommandPattern.Sample4
         /// 插入
         /// </summary>
         /// <param name="args"></param>
-        public void Insert(string args)
-        {
-            Console.WriteLine($"增加新节点：{args}");
-        }
+        public void Insert(string args) => Console.WriteLine($"增加新节点：{args}");
 
         /// <summary>
         /// 修改
         /// </summary>
         /// <param name="args"></param>
-        public void Modify(string args)
-        {
-            Console.WriteLine($"修改节点：{args}");
-        }
+        public void Modify(string args) => Console.WriteLine($"修改节点：{args}");
 
         /// <summary>
         /// 删除
         /// </summary>
         /// <param name="args"></param>
-        public void Delete(string args)
-        {
-            Console.WriteLine($"删除节点：{args}");
-
-        }
-
+        public void Delete(string args) => Console.WriteLine($"删除节点：{args}");
     }
 }

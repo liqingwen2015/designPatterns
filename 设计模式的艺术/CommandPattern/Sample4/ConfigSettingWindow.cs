@@ -20,10 +20,7 @@ namespace CommandPattern.Sample4
             Commands.Add(Command);
         }
 
-        public void Save()
-        {
-            FileUtil.WriteCommans(Commands);
-        }
+        public void Save() => FileUtil.WriteCommans(Commands);
 
 
         /// <summary>

@@ -7,10 +7,7 @@ namespace StatePattern.Sample2
     /// </summary>
     public class OnState : State
     {
-        public override void On(Switch s)
-        {
-            Console.WriteLine("已经打开！");
-        }
+        public override void On(Switch s) => Console.WriteLine("已经打开！");
 
         public override void Off(Switch s)
         {

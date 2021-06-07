@@ -7,9 +7,6 @@
     {
         private readonly WindowHandler _handler = new();
 
-        public override void Execute()
-        {
-            _handler.Minimize();
-        }
+        public override void Execute() => _handler.Minimize();
     }
 }

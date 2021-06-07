@@ -15,9 +15,6 @@
             ConfigOperator.Insert(args);
         }
 
-        public override void Execute()
-        {
-            ConfigOperator.Insert(Args);
-        }
+        public override void Execute() => ConfigOperator.Insert(Args);
     }
 }

@@ -14,9 +14,6 @@
             return _adder.Add(value);
         }
 
-        public override int Undo()
-        {
-            return _adder.Add(-_value);
-        }
+        public override int Undo() => _adder.Add(-_value);
     }
 }

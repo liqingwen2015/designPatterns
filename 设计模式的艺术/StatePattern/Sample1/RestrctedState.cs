@@ -4,25 +4,13 @@ namespace StatePattern.Sample1
 {
     public class RestrctedState : AccountState
     {
-        public RestrctedState(AccountState state)
-        {
-            Account = state.Account;
-        }
+        public RestrctedState(AccountState state) => Account = state.Account;
 
-        public override void Deposit(double amount)
-        {
-            Account.Balance += amount;
-        }
+        public override void Deposit(double amount) => Account.Balance += amount;
 
-        public override void Withdraw(double amount)
-        {
-            Console.WriteLine("账号受限，取款失败");
-        }
+        public override void Withdraw(double amount) => Console.WriteLine("账号受限，取款失败");
 
-        public override void ComputeInterest()
-        {
-            Console.WriteLine("计算利息！");
-        }
+        public override void ComputeInterest() => Console.WriteLine("计算利息！");
 
         public override void CheckState()
         {

@@ -7,9 +7,6 @@ namespace CommandPattern.Sample1
     /// </summary>
     class WindowHandler
     {
-        public void Minimize()
-        {
-            Console.WriteLine("将窗口最小化至托盘！");
-        }
+        public void Minimize() => Console.WriteLine("将窗口最小化至托盘！");
     }
 }

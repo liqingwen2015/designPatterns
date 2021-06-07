@@ -18,20 +18,11 @@ namespace CommandPattern.Sample1
         /// </summary>
         public List<FunctionButton> FunctionButtons { get; set; } = new();
 
-        public FBSettingWindow(string title)
-        {
-            Title = title;
-        }
+        public FBSettingWindow(string title) => Title = title;
 
-        public void AddFunctionButton(FunctionButton button)
-        {
-            FunctionButtons.Add(button);
-        }
+        public void AddFunctionButton(FunctionButton button) => FunctionButtons.Add(button);
 
-        public void RemoveFunctionButton(FunctionButton button)
-        {
-            FunctionButtons.Remove(button);
-        }
+        public void RemoveFunctionButton(FunctionButton button) => FunctionButtons.Remove(button);
 
         /// <summary>
         /// 显示

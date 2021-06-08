@@ -8,9 +8,16 @@ namespace AbstractFactoryPattern.Sample1
 {
     public abstract class AbstractFactory
     {
-
+        /// <summary>
+        /// 工厂方法一
+        /// </summary>
+        /// <returns></returns>
         public abstract AbstractProductA CreateProductA();
 
+        /// <summary>
+        /// 工厂方法二
+        /// </summary>
+        /// <returns></returns>
         public abstract AbstractProductB CreateProductB();
     }
 
@@ -36,11 +43,19 @@ namespace AbstractFactoryPattern.Sample1
 
     public class ConcreteFactory1 : AbstractFactory
     {
+        /// <summary>
+        /// 工厂方法一
+        /// </summary>
+        /// <returns></returns>
         public override AbstractProductA CreateProductA()
         {
             return new ConcrectProductA();
         }
 
+        /// <summary>
+        /// 工厂方法二
+        /// </summary>
+        /// <returns></returns>
         public override AbstractProductB CreateProductB()
         {
             return new ConcrectProductB();

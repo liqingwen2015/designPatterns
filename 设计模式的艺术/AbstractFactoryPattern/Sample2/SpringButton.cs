@@ -7,9 +7,6 @@ namespace AbstractFactoryPattern.Sample2
     /// </summary>
     public class SpringButton : IButton
     {
-        public void Display()
-        {
-            Console.WriteLine("显示浅绿色按钮。");
-        }
+        public void Display() => Console.WriteLine("显示浅绿色按钮。");
     }
 }

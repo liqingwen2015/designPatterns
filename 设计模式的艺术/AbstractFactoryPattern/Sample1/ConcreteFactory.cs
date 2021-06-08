@@ -6,18 +6,12 @@
         /// 工厂方法一
         /// </summary>
         /// <returns></returns>
-        public override AbstractProductA CreateProductA()
-        {
-            return new ConcrectProductA();
-        }
+        public override AbstractProductA CreateProductA() => new ConcrectProductA();
 
         /// <summary>
         /// 工厂方法二
         /// </summary>
         /// <returns></returns>
-        public override AbstractProductB CreateProductB()
-        {
-            return new ConcrectProductB();
-        }
+        public override AbstractProductB CreateProductB() => new ConcrectProductB();
     }
 }

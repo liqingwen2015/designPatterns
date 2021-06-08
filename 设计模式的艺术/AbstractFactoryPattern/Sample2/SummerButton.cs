@@ -7,9 +7,6 @@ namespace AbstractFactoryPattern.Sample2
     /// </summary>
     public class SummerButton : IButton
     {
-        public void Display()
-        {
-            Console.WriteLine("显示浅蓝色按钮。");
-        }
+        public void Display() => Console.WriteLine("显示浅蓝色按钮。");
     }
 }

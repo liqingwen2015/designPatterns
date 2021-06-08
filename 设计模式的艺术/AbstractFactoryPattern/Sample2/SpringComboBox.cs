@@ -7,9 +7,6 @@ namespace AbstractFactoryPattern.Sample2
     /// </summary>
     public class SpringComboBox : IComboBox
     {
-        public void Display()
-        {
-            Console.WriteLine("显示绿色边框组合框。");
-        }
+        public void Display() => Console.WriteLine("显示绿色边框组合框。");
     }
 }

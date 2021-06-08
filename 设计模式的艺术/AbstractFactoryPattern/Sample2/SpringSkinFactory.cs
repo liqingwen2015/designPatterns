@@ -5,19 +5,10 @@
     /// </summary>
     public class SpringSkinFactory : ISkinFactory
     {
-        public IButton CreateButton()
-        {
-            return new SpringButton();
-        }
+        public IButton CreateButton() => new SpringButton();
 
-        public ITextField CreaTextField()
-        {
-            return new SpringTextField();
-        }
+        public ITextField CreaTextField() => new SpringTextField();
 
-        public IComboBox CreateComboBox()
-        {
-            return new SpringComboBox();
-        }
+        public IComboBox CreateComboBox() => new SpringComboBox();
     }
 }

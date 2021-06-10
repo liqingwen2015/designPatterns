@@ -5,9 +5,6 @@
         public string Attr { get; set; }
 
 
-        public override Prototype Clone()
-        {
-            return new ConcretePrototype() { Attr = Attr };
-        }
+        public override Prototype Clone() => new ConcretePrototype() { Attr = Attr };
     }
 }

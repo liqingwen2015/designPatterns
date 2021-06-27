@@ -13,7 +13,7 @@ using NiuX.Extensions;
 namespace UnitTests
 {
     [TestClass]
-    public class BuilderPatternTest
+    public class BuilderPatternTest: TestBase
     {
         public BuilderPatternTest()
         {

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.Runtime;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TemplatePattern.Sample2;
 using TemplatePattern.Sample3;
 

@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NiuX.Extensions" Version="0.0.9" />
+  </ItemGroup>
+
 </Project>

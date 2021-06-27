@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NiuX.Extensions" Version="0.0.4" />
+    <PackageReference Include="NiuX.Extensions" Version="0.0.9" />
   </ItemGroup>
 
 </Project>

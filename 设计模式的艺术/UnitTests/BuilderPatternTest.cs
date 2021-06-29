@@ -13,21 +13,17 @@ using NiuX.Extensions;
 namespace UnitTests
 {
     [TestClass]
-    public class BuilderPatternTest: TestBase
+    public class BuilderPatternTest : TestBase
     {
-        public BuilderPatternTest()
-        {
-            ProfileOptimization.SetProfileRoot(@"C:\MyAppProfile");
-            ProfileOptimization.StartProfile("default");
-        }
+        protected override string PatternConfigJsonPath => "builderPattern.json";
+
+        protected override string AssemblyName => "BuilderPattern";
 
         [TestMethod]
         public void Sample1()
         {
-            var json = File.ReadAllText("Configs/builderPattern.json").ToJson<dynamic>();
             var ac = new ActorController();
-
-            var obj = (ActionBuilder)Activator.CreateInstance(Assembly.Load("BuilderPattern").GetTypes().First(x => x.FullName == (string)json.className));
+            var obj = CreateInstance<ActionBuilder>();
             var actor = ac.Construct(obj);
 
             Console.WriteLine($"{actor.GetType()} 的外观：");

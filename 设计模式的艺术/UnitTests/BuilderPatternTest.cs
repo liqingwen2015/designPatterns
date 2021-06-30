@@ -15,7 +15,7 @@ namespace UnitTests
     [TestClass]
     public class BuilderPatternTest : TestBase
     {
-        protected override string PatternConfigJsonPath => "builderPattern.json";
+        protected override string PatternConfigJsonPath => "builderPattern";
 
         protected override string AssemblyName => "BuilderPattern";
 

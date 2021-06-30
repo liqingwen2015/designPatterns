@@ -1,0 +1,9 @@
+{
+  "className": [
+    // RefinedAbstraction
+    "BridgePattern.Sample2.JpgImage",
+    // ConcreteImplementor
+    "BridgePattern.Sample2.WimdowsImp"
+  ]
+
+}

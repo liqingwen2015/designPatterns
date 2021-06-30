@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AbstractFactoryPattern\AbstractFactoryPattern.csproj" />
     <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj" />
+    <ProjectReference Include="..\BridgePattern\BridgePattern.csproj" />
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
     <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
@@ -28,6 +29,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Configs\bridgePattern.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Configs\adapterPattern.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

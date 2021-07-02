@@ -20,6 +20,8 @@
     <ProjectReference Include="..\BridgePattern\BridgePattern.csproj" />
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
+    <ProjectReference Include="..\CompositePattern\CompositePattern.csproj" />
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj" />
     <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
     <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj" />
     <ProjectReference Include="..\SimpleFactoryPattern\SimpleFactoryPattern.csproj" />
